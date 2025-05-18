@@ -2,9 +2,10 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  title: 'Group Chats',
+  description: 'A simple real time group chat app',
+  generator: 'Next.js',
+  applicationName: 'Group Chats',
 }
 
 export default function RootLayout({
